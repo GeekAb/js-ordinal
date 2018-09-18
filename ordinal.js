@@ -3,6 +3,11 @@
 //Array to hold on to ordinals
 const ordinalsArray = ['th', 'st', 'nd', 'rd'];
 
+// Function will check if number is valid and return false if not.
+const validateNumber = (num) => {
+    return !isNaN(parseFloat( num )) && isFinite( num );
+}
+
 const ordinal = {
 
     ordinalSuffix (num) {
