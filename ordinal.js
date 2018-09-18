@@ -23,6 +23,11 @@ const ordinal = {
 
     toOrdinal (num) {
 
+        //Check if number is valid
+        if( !validateNumber(num) ) {
+            return `${num} is not a valid number`;
+        }
+
         //If number is zero no need to spend time on calculation
         if(num === 0)
             return num.toString();
