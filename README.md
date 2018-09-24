@@ -33,3 +33,7 @@ Getting only ordinal
 ``` javascript
 o.ordinalSuffix(1) // 'st'
 ```
+
+### TODO
+Add unit test
+Support additional language
