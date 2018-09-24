@@ -1,12 +1,12 @@
 "use strict";
 
 //Array to hold on to ordinals
-const ordinalsArray = ['th', 'st', 'nd', 'rd'];
+const ordinalsArray = ["th", "st", "nd", "rd"];
 
 // Function will check if number is valid and return false if not.
 const validateNumber = (num) => {
     return !isNaN(parseFloat( num )) && isFinite( num );
-}
+};
 
 const ordinal = {
 
@@ -29,11 +29,12 @@ const ordinal = {
         }
 
         //If number is zero no need to spend time on calculation
-        if(num === 0)
+        if(num === 0) {
             return num.toString();
+        }
         
         return num.toString() + this.ordinalSuffix(num);
     }
-}
+};
 
 module.exports = ordinal;
