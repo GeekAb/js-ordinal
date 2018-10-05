@@ -2,8 +2,6 @@
 
 Simple utility to translate numeral to their english ordinal representation.
 
-##
-
 ## Install
 
 First of all, you need to have npm or yarn installed. Follow these steps, [npm](https://www.npmjs.com/get-npm) or [yarn](https://yarnpkg.com/lang/en/docs/install/), to install one of them.
