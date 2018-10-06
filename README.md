@@ -1,6 +1,10 @@
+# js-ordinal
+
 Simple utility to translate numeral to their english ordinal representation.
 
 ## Install
+
+First of all, you need to have npm or yarn installed. Follow these steps, [npm](https://www.npmjs.com/get-npm) or [yarn](https://yarnpkg.com/lang/en/docs/install/), to install one of them.
 
 ### npm
 
@@ -33,8 +37,11 @@ Getting only ordinal
 ``` javascript
 o.ordinalSuffix(1) // 'st'
 ```
+### Documentation
+
+You can know more about the project on the [npm website](https://www.npmjs.com/package/js-ordinal) and the [official website](https://GeekAb.github.io/js-ordinal/).
 
 ### TODO
-Add unit test
+- Add unit test
 
-Support additional language
+- Support additional language
